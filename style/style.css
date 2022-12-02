@@ -1,0 +1,130 @@
+header {
+  background: #0017ef;
+  background: -moz-linear-gradient(
+    left,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  background: linear-gradient(
+    to right,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0017ef', endColorstr='#0017ef',GradientType=1 );
+  height: 250px;
+  border-radius: 10px;
+  padding: 100px;
+}
+body {
+  background-image: url("../img/backgraound.jpg");
+  background-size: 40cm;
+}
+#intro {
+  margin-top: 10px;
+  height: 480px;
+}
+#text1 {
+  /* color: rgb(254, 254, 254); */
+  background-color: rgba(252, 252, 252, 0.687);
+  font-size: 25px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  height: 480px;
+  border-radius: 5px;
+  width: 640px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: 100%;
+}
+.sq {
+  background: rgba(164, 35, 176, 0.52);
+  margin-top: 10px;
+  border: 2px solid rgb(187, 96, 215);
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.line {
+  width: 350px;
+  height: 7px;
+  background: #0017ef;
+  background: -moz-linear-gradient(
+    left,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  background: -webkit-linear-gradient(
+    left,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  background: linear-gradient(
+    to right,
+    #0017ef 0%,
+    #629afc 13%,
+    #f4ff66 40%,
+    #f4ff66 40%,
+    #f4ff63 60%,
+    #629afc 90%,
+    #0017ef 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0017ef', endColorstr='#0017ef',GradientType=1 );
+  border-radius: 5px;
+  margin: 20px auto 20px;
+}
+.btn {
+  border-radius: 20px;
+  width: 240px;
+  height: 40px;
+  line-height: 20px;
+}
+audio {
+  width: 250px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 20px;
+  height: 50px;
+}
+footer {
+  color: rgb(183, 183, 183);
+}
+form {
+  background-color: #fff;
+  width: 400px;
+  margin-left: 400px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+}
